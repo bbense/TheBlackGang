@@ -1,0 +1,20 @@
+# Sample minimal config file.  Copy this to ~/.offlineimaprc and edit to
+# get started fast.
+
+[general]
+accounts = Work
+
+[Account Work]
+localrepository = Local
+remoterepository = Remote
+autorefresh = 3 
+
+[Repository Local]
+type = Maildir
+localfolders = ~/WorkMail
+
+[Repository Remote]
+type = IMAP
+remotehost = email.slac.stanford.edu
+remoteuser = bbense
+ssl = yes
