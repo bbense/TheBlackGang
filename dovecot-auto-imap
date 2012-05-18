@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/libexec/dovecot/imap -c ~/auto.dovecot.conf 2>> ~/imap.log  
